@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int x, y, a, b, c;
+    int sum;
+    
+    printf("Reverse a 5 Digit Number \n \n");
+    printf("Enter 5 Digit number including spaces:");
+    scanf("%d %d %d %d %d", &x, &y, &a, &b, &c);
+    
+    sum = x+y+a+b+c;
+
+    printf("Sum of Digits of Number:  %d \n", sum);
+    
+    printf("Code By:\n Saksham Kapoor\n 2330088\n MEB2");
+
+    return 0;
+}
