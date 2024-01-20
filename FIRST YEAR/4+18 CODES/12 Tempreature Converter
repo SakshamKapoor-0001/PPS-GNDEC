@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    float p=1.8;
+    int d=32;
+    int c;
+    int f;
+    printf("Degree Centigrade To Fahrenheit Converter \n \n");
+    printf("Enter The tempreature in Degree Centigrade :");
+    scanf("%d", &c);
+    f = c*p+d;
+    printf("Tempreature in Fahrenheit : %d \n \n", f);
+    printf("Code By:\n Saksham Kapoor\n 2330088\n MEB2");
+
+ return 0;
+}
