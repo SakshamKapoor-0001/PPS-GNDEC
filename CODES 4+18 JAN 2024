@@ -1,0 +1,23 @@
+Addition Of Two Numbers Using SCANF 
+
+#include <stdio.h>
+
+int main() {
+    int a;
+    int b;
+    int sum;
+    printf("Addition Of Two Numbers A And B \n \n");
+    printf("Enter The Value For A:");
+    scanf("%d", &a);
+    printf("Enter The Value For B:");
+    scanf("%d", &b);
+    sum = a+b;
+    printf("Addition of A And B Is %d \n \n", sum);
+    printf("Code By\n Saksham Kapoor\n 2330088\n MEB2");
+
+
+
+    return 0;
+}
+
+
