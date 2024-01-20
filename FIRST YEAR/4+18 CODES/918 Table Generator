@@ -1,0 +1,34 @@
+#include <stdio.h>
+
+int main() {
+    
+    int a, b, c, d, e, f, g, h, i, j, k;
+    
+    printf ("Input The Number You want to get Table OF :");
+    scanf("%d" , &a);
+    b = a*1;
+    c = a*2;
+    d = a*3;
+    e = a*4;
+    f = a*5;
+    g = a*6;
+    h = a*7;
+    i = a*8;
+    j = a*9;
+    k = a*10;
+    printf("%d x 1 = %d \n", a, b);
+    printf("%d x 2 = %d \n", a, c);
+    printf("%d x 3 = %d \n", a, d);
+    printf("%d x 4 = %d \n", a, e);
+    printf("%d x 5 = %d \n", a, f);
+    printf("%d x 6 = %d \n", a, g);
+    printf("%d x 7 = %d \n", a, h);
+    printf("%d x 8 = %d \n", a, i);
+    printf("%d x 9 = %d \n", a, j);
+    printf("%d x 10 = %d \n \n", a, k);
+    
+    printf("Code By: \nSaksham Kapoor \n2330088 \nMEB2");
+    
+    return 0;
+    
+}
