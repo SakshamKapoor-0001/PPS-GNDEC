@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int r;
+    int p;
+    int t;
+    int si;
+    printf("Find Simple Interest of Provided Data Using SI=PxRxT \n \n");
+    printf("Enter The Rate Of Interest in % :");
+    scanf("%d", &r);
+    printf("Enter The Principal Amount in RS :");
+    scanf("%d", &p);
+    printf("Enter The Time period in Years :");
+    scanf("%d", &t);
+    si = ( p * r * t ) / 100.00;
+    printf("Simple Interest of The provided Data is : %d \n \n", si);
+    printf("Code By:\n Saksham Kapoor\n 2330088\n MEB2");
+
+ return 0;
+}
