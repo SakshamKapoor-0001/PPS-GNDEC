@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int x, y;
+
+    printf("Enter two numbers: ");
+    scanf("%d %d", &x, &y);
+
+    printf("After swapping:  %d %d \n", y,x);
+    
+    printf("Code By:\n Saksham Kapoor\n 2330088\n MEB2");
+
+    return 0;
+}
