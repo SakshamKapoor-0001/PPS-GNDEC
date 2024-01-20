@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    puts("Saksham Kapoor");
+    puts("Mechanical Engg (MEB2) ");
+    puts("2330088");
+    puts("Ludhiana");
+    puts("Automobile Engineer");
+    return 0;
+}
