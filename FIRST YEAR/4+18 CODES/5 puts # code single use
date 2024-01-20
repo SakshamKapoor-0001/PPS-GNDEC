@@ -2,5 +2,6 @@
 
 int main() {
     puts("# \n## \n### \n#### \n##### \n###### \n####### \n######## \n######### \n##########");
+    printf("Code By:\n Saksham Kapoor\n 2330088\n MEB2");
     return 0;
 }
