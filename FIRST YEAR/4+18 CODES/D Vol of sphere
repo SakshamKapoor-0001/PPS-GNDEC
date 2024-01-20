@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int r;
+    float p=3.14;
+    float d=1.33;
+    int vol;
+    printf("Find Volume Of A SPHERE \n \n");
+    printf("Enter The Radius Of The Sphere :");
+    scanf("%d", &r);
+    vol = d*p*r*r*r;
+    printf("Volume Of Sphere of provided Radius is : %d \n \n", vol);
+    printf("Code By:\n Saksham Kapoor\n 2330088\n MEB2");
+
+ return 0;
+}
