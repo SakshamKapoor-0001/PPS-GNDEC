@@ -1,0 +1,6 @@
+#include <stdio.h>
+
+int main() {
+    printf("Name:     Saksham Kapoor \nBranch:   Mechanical Engg (MEB2) \nRno:      2330088 \nHometown: Ludhiana \nPassion:  Automobile Engineer  ");
+    return 0;
+}
