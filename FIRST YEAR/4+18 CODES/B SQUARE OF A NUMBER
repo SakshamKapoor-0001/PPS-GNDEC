@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int a;
+    int sq;
+    printf("Square Of A Number \n \n");
+    printf("Enter The Value You Want to Get Square of :");
+    scanf("%d", &a);
+    sq = a*a;
+    printf("Square Of The Input Value Is : %d \n \n", sq);
+    printf("Code By\n Saksham Kapoor\n 2330088\n MEB2");
+
+ return 0;
+}
