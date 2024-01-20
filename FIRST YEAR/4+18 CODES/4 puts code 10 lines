@@ -10,6 +10,8 @@ int main() {
      puts("#######");
       puts("########");
        puts("#########");
-        puts("##########");
+        puts("########## \n");
+
+    printf("Code By:\n Saksham Kapoor\n 2330088\n MEB2");
     return 0;
 }
