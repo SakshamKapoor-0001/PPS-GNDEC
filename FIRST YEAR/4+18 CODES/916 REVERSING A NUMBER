@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int x, y, a, b, c;
+    
+    printf("Reverse a 5 Digit Number \n \n");
+    printf("Enter 5 Digit number including spaces:");
+    scanf("%d %d %d %d %d", &x, &y, &a, &b, &c);
+
+    printf("After Reversing The Number:  %d %d %d %d %d \n", c, b, a, y, x);
+    
+    printf("Code By:\n Saksham Kapoor\n 2330088\n MEB2");
+
+    return 0;
+}
