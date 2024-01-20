@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main() {
+    int a;
+    int b;
+    int c;
+    int d;
+    int e;
+    int sum;
+    int av;
+    int per;
+    printf("Average And Percentage Calculator (Upto 5 Courses) \n \n");
+    printf("Enter The Marks in Course 1: (Out of 100) :");
+    scanf("%d", &a);
+    printf("Enter The Marks in Course 2: (Out of 100) :");
+    scanf("%d", &b);
+    printf("Enter The Marks in Course 3: (Out of 100) :");
+    scanf("%d", &c);
+    printf("Enter The Marks in Course 4: (Out of 100) :");
+    scanf("%d", &d);
+    printf("Enter The Marks in Course 5: (Out of 100) :");
+    scanf("%d", &e);
+    sum = a+b+c+d+e;
+    av = sum / 5 ;
+    per = (sum * 100) / 500;
+    printf("Sum Of Marks In Courses : %d \n", sum);
+    printf("Average Score in Total  : %d Marks \n", av);
+    printf("Percentage Obtained     : %d % \n \n", per);
+    printf("Code By:\n Saksham Kapoor\n 2330088\n MEB2");
+
+ return 0;
+}
