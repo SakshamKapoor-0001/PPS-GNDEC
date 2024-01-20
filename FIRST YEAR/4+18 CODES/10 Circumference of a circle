@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int r;
+    float p=3.14;
+    float d=2;
+    int ar;
+    printf("Find Circumference Of A Circle \n \n");
+    printf("Enter The Radius Of The Circle :");
+    scanf("%d", &r);
+    ar = d*p*r;
+    printf("Circumference Of Circle of provided Radius is : %d \n \n", ar);
+    printf("Code By:\n Saksham Kapoor\n 2330088\n MEB2");
+
+ return 0;
+}
