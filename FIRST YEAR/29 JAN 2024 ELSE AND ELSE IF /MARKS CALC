@@ -1,0 +1,42 @@
+#include <stdio.h>
+
+int main() {
+    int a;
+    int b;
+    int sum;
+    int av;
+    int per;
+    printf("Exam Result Calculator \n \n");
+    printf("Enter Sum of Marks Obtained in All Subjects: ");
+    scanf("%d", &a);
+    printf("Enter Total Number of subjects: ");
+    scanf("%d", &b);
+    av = b*100;
+    per = (a * 100) / av;
+    printf("Percentage Obtained     : %d Percent \n \n", per);
+    if(per>=90)
+    {
+        printf("You Passed this examination With GRADE O \n");
+    }
+    else if(per>80) {
+        printf("You Passed this examination With GRADE A \n");
+    }
+    else if(per>70) {
+        printf("You Passed this examination With GRADE B \n");
+    }
+    else if(per>60) {
+        printf("You Passed this examination With GRADE C \n");
+    }
+     else if(per>50) {
+        printf("You Passed this examination With GRADE D \n");
+    }
+    else if(per>40) {
+        printf("You Passed this examination With GRADE E \n");
+    }
+    else if(per<40) {
+        printf("You Failed This examination \n \n");
+    }
+    printf("Code By:\n Saksham Kapoor\n 2330088\n MEB2");
+
+ return 0;
+}
