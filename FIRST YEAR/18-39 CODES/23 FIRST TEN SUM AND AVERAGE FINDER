@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main(){
+    int i=1;
+    int j;
+    int f, l, m, n, o, p, q, r, s, k;
+    printf("FIRST 10 NUMBER SUM AND AVERAGE FINDER \n \n");
+    
+    f=i+10;
+    do
+    {
+        printf("%d \n",i);
+        i++;
+    }while(i<f);
+    
+    int sum = 1+2+3+4+5+6+7+8+9+10;
+    
+    printf("Sum is %d \n", sum);
+    int avg= sum / 10;
+    printf("Average is %d \n",avg);
+    
+    
+     printf("Code By:\n Saksham Kapoor\n 2330088\n MEB2");
+    
+    return 0;
+    
+    
+}
