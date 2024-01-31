@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main(){
+    int i;
+    int j;
+    int f;
+    printf("Table Generator \n \n");
+    
+    printf("Enter The value You Want to get Table of: ");
+    scanf("%d" ,&i);
+    printf("Enter The Range upto which you want to get table: ");
+    scanf("%d" ,&f);
+    do
+    {
+        printf("%d \n", i*j);
+        j++;
+    }while(j<=f);
+    
+     printf("Code By:\n Saksham Kapoor\n 2330088\n MEB2");
+     
+    return 0;
+    
+    
+}
