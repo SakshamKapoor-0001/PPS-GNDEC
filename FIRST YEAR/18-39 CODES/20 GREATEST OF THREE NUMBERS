@@ -1,0 +1,34 @@
+#include <stdio.h>
+
+int main(){
+    int a;
+    int b;
+    int c;
+    printf("GREATEST OF THREE NUMBERS \n \n");
+    
+    printf("Enter Number 1: ");
+    scanf("%d" ,&a);
+    printf("Enter Number 2: ");
+    scanf("%d" ,&b);
+    printf("Enter Number 3: ");
+    scanf("%d" ,&c);
+    if(a>b>c)
+    {
+        printf("The biggest of three numbers is %d \n",a );
+    }
+    else if(a<b<c)
+    {
+        printf("The biggest of Three Numbers is %d \n", c);
+    }
+    else if(a<c<b)
+    {
+        printf("The biggest of Three Numbers is %d \n", b);
+    }
+    else
+    printf("Invalid Or Similar Values entered Please Try Again \n");
+     printf("Code By:\n Saksham Kapoor\n 2330088\n MEB2");
+    
+    return 0;
+    
+    
+}
