@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main(){
+    int a;
+    int b;
+    int c;
+    printf("Leap year finder \n \n");
+    
+    printf("Enter Number 1: ");
+    scanf("%d" ,&a);
+ 
+    if(a % 4 ==0)
+    {
+        printf("The Entered Year %d Is a leap year \n",a );
+    }
+    else
+    printf("Entered Year is not a leap year \n");
+     printf("Code By:\n Saksham Kapoor\n 2330088\n MEB2");
+    
+    return 0;
+    
+    
+}
