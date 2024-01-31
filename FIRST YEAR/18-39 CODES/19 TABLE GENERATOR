@@ -12,7 +12,7 @@ int main(){
     scanf("%d" ,&f);
     do
     {
-        printf("%d \n", i*j);
+        printf("%d x %d = %d \n",i , j, i*j);
         j++;
     }while(j<=f);
     
