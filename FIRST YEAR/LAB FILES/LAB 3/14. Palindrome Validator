@@ -22,3 +22,28 @@ int main() {
 
   return 0;
 }
+
+#include <stdio.h>
+
+int main() {
+    int num, reversed = 0, remainder, original;
+
+    printf("Enter a four-digit number: ");
+    scanf("%d", &num);
+
+    original = num;
+
+    while (num != 0) {
+        remainder = num % 10;
+        reversed = reversed * 10 + remainder;
+        num /= 10;
+    }
+
+    if (original == reversed)
+        printf("%d is a palindrome.\n", original);
+    else
+        printf("%d is not a palindrome.\n", original);
+printf("Code By:\n Saksham Kapoor\n 2330088\n MEB2");
+
+    return 0;
+}
