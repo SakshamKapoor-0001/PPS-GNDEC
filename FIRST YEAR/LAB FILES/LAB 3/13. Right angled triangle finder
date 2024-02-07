@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() {
+    float a,b,c,sum;
+
+    printf("Enter Angle one: ");
+    scanf("%f", &a);
+
+    printf("Enter Angle two: ");
+    scanf("%f", &b);
+
+    printf("Enter Angle three: ");
+    scanf("%f", &c);
+
+    sum=a+b+c;
+
+    if (sum ==180) {
+        printf("The Triangle is Valid\n");
+    } else {
+        printf("The triangle is not valid\n");
+    }
+printf("Code By:\n Saksham Kapoor\n 2330088\n MEB2");
+
+    return 0;
+}
