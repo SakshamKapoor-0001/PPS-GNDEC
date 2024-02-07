@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main(){
+    int a;
+    printf("Odd or Even Finder \n \n");
+    
+    printf("Enter Number You Want to check: ");
+    scanf("%d" ,&a);
+ 
+    if(a % 2 ==0)
+    {
+        printf("The Entered Number %d Is a Even Number \n",a );
+    }
+    else
+    printf("Entered Number is a Odd Number \n");
+     printf("Code By:\n Saksham Kapoor\n 2330088\n MEB2");
+    
+    return 0;
+    
+    
+}
