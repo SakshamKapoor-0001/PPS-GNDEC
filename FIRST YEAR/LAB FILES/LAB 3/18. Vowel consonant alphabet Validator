@@ -15,6 +15,7 @@ int main() {
     } else {
         printf("Character is not an alphabet\n");
     }
+printf("Code By:\n Saksham Kapoor\n 2330088\n MEB2");
 
     return 0;
 }
