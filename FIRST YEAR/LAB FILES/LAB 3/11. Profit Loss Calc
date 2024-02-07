@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    float cp, sp;
+
+    printf("Enter cost price of the item: ");
+    scanf("%f", &cp);
+
+    printf("Enter selling price of the item: ");
+    scanf("%f", &sp);
+
+    if (sp > cp) {
+        printf("The seller has made a profit of: %.2f\n", sp - cp);
+    } else if (sp < cp) {
+        printf("The seller has incurred a loss of: %.2f\n", cp - sp);
+    } else {
+        printf("The seller has neither made a profit nor incurred a loss.\n");
+    }
+printf("Code By:\n Saksham Kapoor\n 2330088\n MEB2");
+
+    return 0;
+}
