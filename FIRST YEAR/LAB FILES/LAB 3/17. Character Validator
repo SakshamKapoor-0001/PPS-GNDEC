@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    char ch;
+    printf("Enter any character: ");
+    scanf("%c", &ch);
+
+    if (ch >= 65 && ch <= 90)
+        printf("Character is a capital letter\n");
+    else if (ch >= 97 && ch <= 122)
+        printf("Character is a small letter\n");
+    else if (ch >= 48 && ch <= 57)
+        printf("Character is a digit\n");
+    else
+        printf("Character is a special symbol\n");
+
+    return 0;
+}
