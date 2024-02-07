@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    int amt, hundred, fifty, ten;
+
+    printf("Please input amount for withdraw : ");
+    scanf("%d", &amt);
+
+    hundred = amt / 100;
+    amt = amt % 100;
+
+    fifty = amt / 50;
+    amt = amt % 50;
+
+    ten = amt / 10;
+    amt = amt % 10;
+
+    printf("Required notes of Rs. 100 : %d\n", hundred);
+    printf("Required notes of Rs. 50 : %d\n", fifty);
+    printf("Required notes of Rs. 10 : %d\n", ten);
+    printf("Code By:\n Saksham Kapoor\n 2330088\n MEB2");
+
+    return 0;
+}
