@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    int num, absoluteValue;
+
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    if (num < 0) {
+        absoluteValue = -num;
+    } else {
+        absoluteValue = num;
+    }
+
+    printf("The absolute value of the entered number is: %d\n", absoluteValue);
+    printf("Code By:\n Saksham Kapoor\n 2330088\n MEB2");
+
+    return 0;
+}
