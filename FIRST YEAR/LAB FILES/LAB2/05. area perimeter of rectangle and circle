@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    float a,r,x,y,m,c,b;
+    float p=3.14;
+    printf("Find Area Of A Rectangle and Circ;e \n \n");
+    printf("Enter Length of Rectangle :");
+    scanf("%f", &x);
+    printf("Enter Width of Rectangle :");
+    scanf("%f", &y);
+    printf("Enter Radius of Circle :");
+    scanf("%f", &r);
+    a = x*y;
+    m = 2*(x+y);
+    c = p*r*r;
+    printf("Area Of Rectangle of provided Dimension is : %.2f \n \n", a);
+    printf("Perimeter Of Rectangle of provided Dimension is : %.2f \n \n", m);
+    printf("Area Of Circle of provided Radius is : %.2f \n \n", c);
+    printf("Code By:\n Saksham Kapoor\n 2330088\n MEB2");
+
+ return 0;
+}
