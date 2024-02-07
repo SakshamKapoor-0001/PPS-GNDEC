@@ -13,6 +13,7 @@ int main() {
         printf("Character is a digit\n");
     else
         printf("Character is a special symbol\n");
+printf("Code By:\n Saksham Kapoor\n 2330088\n MEB2");
 
     return 0;
 }
