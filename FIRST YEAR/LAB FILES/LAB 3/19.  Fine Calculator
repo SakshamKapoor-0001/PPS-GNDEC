@@ -17,8 +17,9 @@ int main() {
         printf("The fine is: %d rupees\n", fine / 100);
     } else {
         printf("Your membership has been cancelled.\n");
+        printf("Code By:\n Saksham Kapoor\n 2330088\n MEB2");
     }
-    printf("Code By:\n Saksham Kapoor\n 2330088\n MEB2");
+    
 
     return 0;
 }
