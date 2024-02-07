@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+  int num, reverse = 0;
+
+  printf("Enter a five-digit number: ");
+  scanf("%d", &num);
+
+  while (num > 0) {
+    reverse = reverse * 10 + (num % 10);
+    num /= 10;
+  }
+
+  printf("The reversed number is: %d \n", reverse);
+  printf("Code By:\n Saksham Kapoor\n 2330088\n MEB2");
+
+  return 0;
+}
