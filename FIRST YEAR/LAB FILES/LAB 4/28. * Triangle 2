@@ -1,1 +1,33 @@
 
+#include <stdio.h>
+
+int main() {
+    int size;
+
+    // Input
+    printf("Enter the size of the pattern: ");
+    scanf("%d", &size);
+
+    // Check for a positive size
+    if (size <= 0) {
+        printf("Please enter a positive size.\n");
+    } else {
+        // Print the combined pattern
+        for (int i = 1; i <= size; ++i) {
+            for (int j = 1; j <= i; ++j) {
+                // Print numbers
+                printf("%d", j);
+            }
+
+            for (int k = 1; k <= size - i; ++k) {
+                // Print asterisks
+                printf("*");
+            }
+
+            printf("\n");
+        }
+    }
+    printf("Code By \n Saksham Kapoor \n 2330088 \n MEB2");
+
+    return 0;
+}
