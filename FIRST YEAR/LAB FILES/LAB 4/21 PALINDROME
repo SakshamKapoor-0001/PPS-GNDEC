@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main() {
+    int num, reversed = 0, remainder, original;
+
+    printf("Enter an integer: ");
+    scanf("%d", &num);
+
+    original = num;
+
+    // reverse the number
+    while (num != 0) {
+        remainder = num % 10;
+        reversed = reversed * 10 + remainder;
+        num /= 10;
+    }
+
+    // palindrome if original and reversed are equal
+    if (original == reversed) {
+        printf("%d is a palindrome.\n", original);
+    } else {
+        printf("%d is not a palindrome.\n", original);
+    }
+    printf("Code By \n Saksham Kapoor \n 2330088 \n MEB2");
+
+    return 0;
+}
+
