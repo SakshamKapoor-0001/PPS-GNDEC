@@ -1,0 +1,22 @@
+DIFFERENCE BETWEEN PSEUDHO CODE AND ALGORITHMS WITH HELP OF AN EXAMPLE 
+
+An algorithm is a step-by-step procedure or a set of rules to be followed for solving a specific problem or performing a particular task. It is a precise description of how to perform a computation or solve a problem. Algorithms are often expressed in a combination of natural language and mathematical notations.
+
+Pseudocode, on the other hand, is a higher-level description that is not tied to the syntax of any specific programming language. It is a way to outline the logic of an algorithm in a manner that is more readable and understandable than pure code. Pseudocode allows for flexibility and focuses on the logic and steps of the algorithm rather than precise syntax.
+
+Example 
+
+Algorithm: FindMaxElement
+
+Input:
+  - Array A of n elements
+
+Output:
+  - maxElement (maximum element in the array)
+
+Procedure:
+  1. Set maxElement to A[0]
+  2. For i = 1 to n-1:
+       a. If A[i] > maxElement, set maxElement to A[i]
+  3. Output maxElement
+  4. End Algorithm
