@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main()
+{
+    int i=1,j=1;
+    for(i=1;i<=3;j++)
+    {
+        if(i == 2 && j ==2)
+        {
+            printf("in continue");
+            continue;
+        }
+        printf(" %d",i);
+        printf(" %d",j);
+        if(++i==4 || --j==5)
+        {
+            break;
+        }
+    }
+printf(" %d",i);
+printf(" %d",j);
+return 0;
+
+
+
+}
