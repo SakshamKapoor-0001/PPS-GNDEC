@@ -1,0 +1,3 @@
+The statement "Initialization is always out of the loop" is true for the for loop and the while loop, but not for the do-while loop.
+
+In the for loop, the initialization is done before the loop starts, and it is executed only once. The for loop has three parts separated by semicolons: initialization, condition, and increment. The initialization part is executed only once before the loop starts. The condition part is checked before each iteration of the loop. If the condition is true, the loop body is executed. After the loop body, the increment part is executed. Here is an example of a for loop:
