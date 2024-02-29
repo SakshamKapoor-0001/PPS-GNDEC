@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+void print_cubes(int n) {
+    int i;
+    for(i = 1; i <= n; i++) {
+        printf("%d^3 = %d\n", i, i * i * i);
+    }
+}
+
+int main() {
+    int n;
+    printf("Enter the value of n: ");
+    scanf("%d", &n);
+
+    print_cubes(n);
+    printf("Code By:\n Saksham Kapoor\n 2330088\n MEB2");
+
+    return 0;
+}
