@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    int numbers[10];
+    int sum = 0;
+
+    printf("Enter 10 numbers:\n");
+
+    for(int i = 0; i < 10; i++) {
+        scanf("%d", &numbers[i]);
+        sum += numbers[i];
+    }
+
+    float average = (float)sum / 10;
+
+    printf("\nSum of 10 numbers: %d\n", sum);
+    printf("Average of 10 numbers: %.2f\n", average);
+    printf("Code By:\n Saksham Kapoor\n 2330088\n MEB2");
+
+    return 0;
+}
