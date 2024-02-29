@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+void print_odd_numbers(int n) {
+    int i, sum = 0;
+    printf("Odd natural numbers: ");
+    for(i = 1; i <= n; i++) {
+        int odd_number = 2 * i - 1;
+        printf("%d ", odd_number);
+        sum += odd_number;
+    }
+    printf("\nSum of odd natural numbers: %d", sum);
+}
+
+int main() {
+    int n;
+    printf("Enter the value of n: ");
+    scanf("%d", &n);
+
+    print_odd_numbers(n);
+    printf("Code By:\n Saksham Kapoor\n 2330088\n MEB2");
+
+    return 0;
+}
