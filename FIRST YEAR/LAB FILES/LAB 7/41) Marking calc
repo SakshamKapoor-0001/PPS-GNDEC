@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+    void calculateResults(int marks[], double *average, double *percentage) {
+    int sum = marks[0] + marks[1] + marks[2];
+    
+    *average = sum / 3.0;
+    
+    *percentage = (sum / 300) * 100; 
+}
+
+int main() {
+    int marks[3];
+    double average, percentage;
+
+    printf("Enter marks for fisrt subject : ");
+    scanf("%d", &marks[0]);
+    printf("Enter marks for second subject : ");
+    scanf("%d", &marks[1]);
+    printf("Enter marks for third subject : ");
+    scanf("%d", &marks[2]);
+
+    calculateResults(marks, &average, &percentage);
+
+     printf("Average marks: %.2lf\n", average);
+    printf("Percentage marks: %.2lf%%\n", percentage);
+
+     printf("\nWritten by Saksham Kapoor\nMEB2-2330088\n");
+
+    return 0;
+}
