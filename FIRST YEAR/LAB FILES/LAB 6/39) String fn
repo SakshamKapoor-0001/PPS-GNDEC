@@ -1,0 +1,33 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char arr1[50];
+    char copy[50];
+    char arr2[50];
+   printf("Enter a word : ");
+    gets(arr1);
+   
+   int x= strlen(arr1);
+   printf("Number of letters in string are : %d\n",x);
+   strcpy(copy,arr1);
+   printf("Copied array is : %s\n",copy);
+   printf("Enter another word : ");
+   gets(arr2);
+
+   int z=strcmp(arr1,arr2);
+    if (z==0)
+    {
+        printf("Comparison : %s is equal to %s \n",arr1,arr2);
+    }
+   else{
+    printf("Comparison : %s is not equal to %s \n",arr1,arr2);
+   } 
+   
+  strcat(arr1, arr2);
+   printf("After concatintion : %s \n",arr1);
+
+printf("\nWritten by Saksham Kapoor\nMEB2-2330088\n");
+
+    return 0;
+}
