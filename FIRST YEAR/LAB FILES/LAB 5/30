@@ -1,0 +1,31 @@
+#include<stdio.h>
+int main()
+{
+    int i,j,temp;
+    int a[10];
+    printf("Enter 10 numbers\n");
+    for ( i = 0; i < 10; i++)
+    {
+      scanf("%d",&a[i]);
+    }
+    
+    for(i=0;i<10;i++)
+    {
+        for(j=i+1;j<10;j++)
+        {
+            if (a[j] > a[i])
+            {
+               temp=a[i];
+               a[i]=a[j];
+               a[j]=temp;
+            }
+            
+        }
+    }
+    printf("Largest element is : %d\n",a[0]);
+    
+        
+
+    printf("\nWritten by Saksham Kapoor\nMEB2-2330088\n");
+return 0;
+}
