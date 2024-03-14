@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+void countNumbers(int arr[],int n ) {
+    int positive = 0, negative = 0, odd = 0, even = 0;
+    for (int i = 0; i < 25; i++) {
+        if (arr[i] > 0)
+            positive++;
+        else if (arr[i] < 0)
+            negative++;
+        
+        if (arr[i] % 2 == 0)
+            even++;
+        else
+            odd++;
+    }
+    printf("Positive numbers: %d\n", positive);
+    printf("Negative numbers: %d\n", negative);
+    printf("Even numbers: %d\n", even);
+    printf("Odd numbers: %d\n", odd);
+}
+
+int main() {
+    int n=25;
+    int arr[25];
+    printf("\nCode by Saksham Kapoor\nMEB2-2330088\n");
+    printf("Enter 25 integers ....\n");
+   for ( int i = 0; i < 25; i++)
+   {
+    scanf("%d",&arr[i]);
+   }
+   
+   
+   
+    countNumbers(arr, n);
+    return 0;
+    
+
+}
