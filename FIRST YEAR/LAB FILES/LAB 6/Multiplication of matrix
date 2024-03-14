@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+
+int main() {
+    
+    int xyz[2][2]={1,2,3,4};
+    int abc[2][2]={4,3,2,1};
+    int new[2][2];
+    for (int  i = 0; i < 2; i++)
+    {
+      for (int j = 0; j<2 ; j++)
+      {
+       printf("Multiplicatin[%d][%d]=%d\n",i+1,j+1,xyz[i][j]*abc[i][j]) ;
+      }
+      
+    }
+
+   printf("Written by Saksham Kapoor\nMEB2-2330088\n");
+   return 0;
+}
