@@ -1,0 +1,41 @@
+#include <stdio.h>
+
+int main() {
+    int i,n,ans;
+    
+    
+    printf("Enter the number of elements: ");
+    scanf("%d", &n);
+    
+    int arr[n];
+    
+      
+    for ( i = 0; i < n; i++) {
+       scanf("%d",&arr[i]);
+       if (i==n-1)
+       {
+             printf("Enter element to find : ");
+             scanf("%d",&ans);
+               for ( i = 0; i < n; i++)
+                     {
+                         if (ans==arr[i])
+                         {
+                            printf("Element %d found at index arr[%d]\n",ans,i);
+                         }
+                     }
+                     
+       }
+                    
+    }
+    
+
+    
+    
+ 
+    
+   
+   
+    printf("\nWritten by Saksham Kapoor\nMEB2-2330088\n");
+
+    return 0;
+}
